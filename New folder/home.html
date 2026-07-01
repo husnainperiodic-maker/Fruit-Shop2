@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shop</title>
+        <style>
+        @media(max-width:768px){
+            .product{
+                grid-template-columns:1fr;
+            }
+            .hero{
+                flex-direction:column;
+            }
+            .row{
+                flex-direction:column;
+            }
+        }
+            body{
+                margin:0;
+                font-family:Arial;
+            }
+            .navi{
+                background:black;
+                display:flex;
+                justify-content:space-between;
+                align-items:center;
+                padding:15px 30px;
+            }
+            .logo{
+                color:white;
+                font-size:24px;
+                font-weight:bold;
+            }
+            .menu a{
+                color:white;
+                text-decoration:none;
+                margin-left:20px;
+            }
+            .menu a:hover{
+    color:greenyellow;
+}
+.login-btn{
+    transition:0.3s;
+    background:#32CD32;
+    color:black !important;
+    padding:8px 16px;
+    border-radius:8px;
+}
+
+.login-btn:hover{
+    background:white;
+}
+ h2{
+    text-align:center;
+    color:white;
+    background:black;
+    border-radius:20px;
+    border-top:3px solid #32CD32;
+    border-bottom:3px solid #32CD32;
+    width:320px;
+    margin:20px auto;
+    padding:10px;
+}
+.card2{
+    background:white;
+    text-align:center;
+    border-radius:15px;
+    border:2px solid #32CD32;
+    padding:15px;
+    width:200px;
+    height:140px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+.row{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 20px;
+    gap:2px;
+
+}
+.product{
+    display:grid;
+    grid-template-columns:2fr 1.5fr;
+    gap:20px;
+    justify-content:center;
+    margin-left:280px;
+    
+}
+.card1{
+    background:white;
+    text-align:center;
+    border-radius:15px;
+    border:2px solid #32CD32;
+    padding:15px;
+    width:200px;
+    height:140px;
+    margin:20px;
+    margin-left:265px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+.bfw{
+    background:#1d8d5e76;
+    padding:10px 15px;
+    text-align:center;
+
+}
+.bfp{
+    background:#08480f7b;
+    padding:5px 15px;
+}
+ h4{
+    color:green;
+    font-weight:bold;
+    padding:10px;
+    border-top:2px solid #32CD32;
+    border-bottom:2px solid #32CD32;
+    text-align:center;
+ }
+ .cdfr{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:30px;
+ }
+.rff{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+
+}
+footer{
+    background:black;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+.hero{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding:50px;
+}
+.hero img{
+    width:300px;
+    height:auto;
+    border-radius:15px;
+}
+        </style>
+    </head>
+    <body>
+        <div class="navi">
+            <h3 class="logo">My Shop</h3>
+            <div class="menu">
+                <a href="home.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="products.html">Product</a>
+                <a href="contact.html">Contact</a>
+            <a href="login.html" class="login-btn">Login</a>
+            </div>
+        </div>
+     <div class="hero">
+    <div class="bfw">
+        <h3>Welcome to my shop<br>Best products at best price</h3>
+        <button class="login-btn" style="position-area:center;">Shop Now</button>
+    </div>
+    
+    <img src="f.jpg" alt="Apple">
+    
+</div>
+        <h2>Featured products</h2>
+    <div class="bfp">
+    <div class="product">
+    <div class="card2"><div class="row">
+    <img src="apple.jpg" alt="Apple" width="60" height="50">
+    <h3>Apple</h3></div>
+    <p>Rs: 100</p>
+    <button class="login-btn">Buy Now</button>
+</div><div class="card2">
+    <div class="row">
+    <img src="b.jpg" alt="Banana" width="60" height="50">
+    <h3>Banana</h3></div>
+    <p>Rs: 100</p>
+    <button class="login-btn">Buy Now</button>
+</div><div class="card2">
+     <div class="row"><img src="o.jpg" alt="Orange" width="60" height="50">
+    <h3>Orange</h3></div>
+    <p>Rs: 100</p>
+    <button class="login-btn">Buy Now</button>
+</div><div class="card2"> <div class="row">
+      <img src="m.jpg" alt="Mango" width="60" height="50">
+    <h3>Apple</h3></div>
+    <p>Rs: 100</p>
+    <button class="login-btn">Buy Now</button>
+</div>
+   </div></div>
+
+    <h2>Why Choose Us?</h2>
+    <div class="row">
+        <div class="card2">
+            <h3>Best Quality</h3>
+            <p>We provide best quality products</p>
+        </div>
+        <div class="card2">
+            <h3>Best Price</h3>
+            <p>We provide best price for our products</p>
+        </div>
+        <div class="card2">
+            <h3>Fast Delivery</h3>
+            <p>We provide fast delivery for our products</p>
+        </div>  </div> 
+      
+        <h2>Customer Reviews</h2>
+        <div class="cdfr">
+        <h2>⭐⭐⭐⭐⭐</h2>
+        <h2>best product ever!</h2>
+       </div>
+       <h2>Footer</h2>
+    
+      <footer>
+    <p>Email: myshop@gmail.com</p>
+    <p>Phone: +1 234 567 890</p>
+</footer>
+    </body>
+</html>
